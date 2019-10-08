@@ -30,6 +30,9 @@
   background-color: black;
   color: azure;
 }
+body{
+  background-color: whitesmoke;
+}
 
 .topnav a.active {
   background-color: darkred;
