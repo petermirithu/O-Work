@@ -55,4 +55,16 @@ body{
   font-family: 'Fascinate Inline', cursive;
 font-family: 'Knewave', cursive;
 }
+#about{
+  background-image: url("../images/bg8.jpeg");
+  background-repeat: no-repeat;
+  text-align: center;  
+  background-size: cover;
+  font-size: 20px;
+  font-family: 'Boogaloo', cursive;
+  
+}
+
+
+
 
