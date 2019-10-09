@@ -93,9 +93,6 @@ font-family: 'Knewave', cursive;
   height: 100%;
   backface-visibility: hidden;
 }
-
-
-
 .flip-box-back {
   background-color: black;
   color: white;
