@@ -102,6 +102,20 @@ font-family: 'Knewave', cursive;
 #collogo,#coldesign,#colwebapp,#colmobapp,#coldeskapp,#colgraphic,#colphoto,#colconsult,#coldata{
   cursor: pointer;
 }
+#message{
+  padding: 20px;
+  text-align: center;  
+}
+#chat{
+  width:200px;
+  text-align: center;
+  -webkit-transition: width 5s; 
+  transition: width 1s;
+  cursor: pointer;
+}
+#chat:hover{
+  width:400px;  
+}
 
 
 
