@@ -32,6 +32,7 @@
 }
 body{
   background-color: whitesmoke;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .topnav a.active {
@@ -97,6 +98,9 @@ font-family: 'Knewave', cursive;
   background-color: black;
   color: white;
   transform: rotateY(180deg);
+}
+#collogo,#coldesign,#colwebapp,#colmobapp,#coldeskapp,#colgraphic,#colphoto,#colconsult,#coldata{
+  cursor: pointer;
 }
 
 
