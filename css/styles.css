@@ -32,6 +32,7 @@
 }
 body{
   background-color: whitesmoke;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .topnav a.active {
@@ -63,8 +64,10 @@ font-family: 'Knewave', cursive;
   font-size: 20px;
   color: black;
   font-family: 'Boogaloo', cursive;
-  padding:10px;
-  
+  padding:20px;  
+}
+.about-us-content{
+  padding: 30px;
 }
 .flip-box {
   background-color: transparent;
@@ -97,6 +100,23 @@ font-family: 'Knewave', cursive;
   background-color: black;
   color: white;
   transform: rotateY(180deg);
+}
+#collogo,#coldesign,#colwebapp,#colmobapp,#coldeskapp,#colgraphic,#colphoto,#colconsult,#coldata{
+  cursor: pointer;
+}
+#message{
+  padding: 20px;
+  text-align: center;  
+}
+#chat{
+  width:200px;
+  text-align: center;
+  -webkit-transition: width 5s; 
+  transition: width 1s;
+  cursor: pointer;
+}
+#chat:hover{
+  width:400px;  
 }
 
 
