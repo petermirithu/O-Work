@@ -1,0 +1,10 @@
+.jumbotron{
+  
+  box-shadow: 5px 5px black;
+}
+.jumbotron h1{
+text-align: center;
+color:black;
+padding: 10px;
+font-family: sans-serif;
+}
