@@ -26,7 +26,7 @@ $(document).ready(function() {
     var password = $("input#password").val();
     var pass2 = $("input#pswRepeat").val();
 
-    alert(fname);
+    //alert(fname);
   });
   
   
