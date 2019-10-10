@@ -128,7 +128,13 @@ font-family: 'Knewave', cursive;
 #chat:hover{
   width:400px;  
 }
-
-
+.ABOUT{
+  text-align: center;
+  
+}
+.photoz{
+  text-align: right;
+  position: fixed;
+}
 
 
