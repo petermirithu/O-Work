@@ -130,5 +130,17 @@ font-family: 'Knewave', cursive;
 #chat:hover{
   width:400px;  
 }
+.ABOUT p li{
+  text-align: center;
+  font: bold;
+  font-family: sans-serif;
+  padding: 10px
+}
+.photoz{
+  text-align: center;
+
+
+  
+}
 
 
