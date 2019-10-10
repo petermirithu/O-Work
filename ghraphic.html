@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>O-Work</title>  
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Knewave&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">   
+  <script src="js/bootstrap.js"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron" style="width: 100" style="background-color:">
+      <img src="" style="border-radius: 360%" width="250" height="250">
+      <h1 style="color: black" >GRAPHIC DESIGN</h1>
+      
+    </div>
+  </div>
+  <div class="omega" style="text-align: center"><h1 style="color: gold">GHRAPHCO</h1>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-6">
+        <div id="slideshowContainer">
+          
+            <div class="w3-content w3-section" style="max-width:250px">
+              <img src="" class="mySlides" style="widows: 250px" height="250px">
+              <img src="" class="mySlides" style="widows: 250px" height="250px">
+              <img src="" class="mySlides" style="widows: 250px;" height="250px">
+            </div>
+          
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+                
+  </script>
+          </div>
+    </div>
+
+<div class="col-6">
+  <div class="ABOUT">
+    <h1>ABOUT</h1>
+    <P>Hi ,welcome imega studios where we take photography to the next level <br>
+    <ul style="font-family: sans-serif">
+<li>videoghraphy  30$</li>
+<li>photoghraphy  10$</li>
+<li>wedding shoots 10$ </li>
+<li>graduation shoots  10$</li>
+</ul>
+
+    </P>
+  </div>
+
+</div>
+</div>
+  
+</body>
+</html>
