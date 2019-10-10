@@ -32,11 +32,11 @@
         <div id="slideshowContainer">
           
             <div class="w3-content w3-section" style="max-width:250px">
-              <img src="./images-jeff/img4.jpeg" class="mySlides" style="widows: 250px" height="250px">
-              <img src="./images-jeff/img3.jpeg" class="mySlides" style="widows: 250px" height="250px">
-              <img src="./images-jeff/img2.jpeg" class="mySlides" style="widows: 250px;" height="250px">
-            </div>
-          
+              <img src="./images-jeff/img4.jpeg" class="mySlides" style="width: 250px" height="250px">
+              <img src="./images-jeff/img3.jpeg" class="mySlides" style="width: 250px" height="250px">
+              <img src="./images-jeff/img2.jpeg" class="mySlides" style="width: 250px;" height="250px">
+            </div>    
+            
             <script>
                 var myIndex = 0;
                 carousel();
@@ -53,7 +53,7 @@
                   setTimeout(carousel, 2000); // Change image every 2 seconds
                 }
                 
-          </script>
+          </script>                            
         </div>
     </div>
 
@@ -62,10 +62,10 @@
         <h1>ABOUT</h1>
         <P>Hi ,welcome imega studios where we take photography to the next level <br>
           <ul style="font-family: sans-serif">
-            <li>videoghraphy  30$</li>
-            <li>photoghraphy  10$</li>
-            <li>wedding shoots 10$ </li>
-            <li>graduation shoots  10$</li>
+            <li>videoghraphy  $30</li>
+            <li>photoghraphy  $10</li>
+            <li>wedding shoots $20 </li>
+            <li>graduation shoots  $10</li>
           </ul>
         </P>
         <div id="message">
@@ -76,6 +76,63 @@
       </div>
     </div>
   </div>
+  <div class="omega" style="text-align: center"><h1 style="color: gold"> Villa Vins's studio.</h1></div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-6">
+        <div id="slideshowContainer">
+          
+            <div class="w3-content w3-section" style="max-width:250px">
+              <img src="./images/viil1.jpg" class="mySlidesx" style="width: 250px" height="250px">
+              <img src="./images/vill2.jpeg" class="mySlidesx" style="width: 250px" height="250px">
+              <img src="./images/vill3.jpg" class="mySlidesx" style="width: 250px;" height="250px">
+            </div>
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>                    
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlidesx");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+            
+      </script>
+    </div>
+
+    <div class="col-6">
+      <div class="ABOUT">
+        <h1>ABOUT</h1>
+        <P>Hi ,welcome Villa Vins's studio.We do have specialised in photography and we got what you just need.<br>
+          <ul style="font-family: sans-serif">
+            <li>wedding shoots $50 </li>          
+            <li>photoghraphy  $10</li>
+            <li>videoghraphy  $40</li>            
+          </ul>
+        </P>
+        <div id="message">
+            <h2>Live Chat With Omega studios.</h2>            
+              <a href="" class="btn btn-danger" id="chat">Chat with us</a>      
+        </div>
+      </div>  
+    </div>
+  </div>
+  
+
 
   <!-- Start of LiveChat (www.livechatinc.com) code -->
 <script type="text/javascript">
