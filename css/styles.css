@@ -181,3 +181,11 @@ form, .content {
   background: white;
   border-radius: 0px 0px 10px 10px;
 }
+.formBtn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: rgb(77, 15, 247);
+  border: none;
+  border-radius: 5px;
+}
