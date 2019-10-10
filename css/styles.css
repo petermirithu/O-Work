@@ -140,6 +140,9 @@ font-family: 'Knewave', cursive;
   text-align: center;
   
 }
+a{
+  color: black;
+}
 
 /* sign-up Form styling */
 .sign_in_form{

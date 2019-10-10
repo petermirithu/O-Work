@@ -20,7 +20,12 @@ $(document).ready(function() {
   $("form#sign-up").submit(function(event) {
     event.preventDefault();
     var fname = $("input#firstName").val();
-    
+    var lname = $("input#lastName").val();
+    var uname = $("input#userName").val();
+    var email = $("input#email").val();
+    var password = $("input#password").val();
+    var pass2 = $("input#pswRepeat").val();
+
     alert(fname);
   });
   
