@@ -151,6 +151,7 @@ a{
 .sign_in_form{
   position: relative;
   padding-top: 6%;
+  padding-bottom: 4%;
 }
 .formHeader {
   width: 40%;

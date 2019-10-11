@@ -26,13 +26,19 @@ $(document).ready(function() {
     var email = $("input#email").val();
     var password = $("input#password").val();
     var pass2 = $("input#pswRepeat").val();
-
+   
+    if(password !== pass2){
+      alert("passwords do not match");
+    } else{
     var user = new Person(fname, lname, uname, email, password, pass2);
     users.push(user);
 
-    alert("Account successfully created!");
-    
+    alert("Account successfully created!\nWelcome onboard  " + fname);
+  }  
   });
+
+  //Retrieve credentials for signin
+  
   
   
 });//end of document.get.ready function
