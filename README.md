@@ -2,26 +2,26 @@
   ![picture](./images/logo.png)
 
 ## Authors: 
-          *Peter Mirithu*
-          *Josphat Njoroge*
-          *Jeff Thuo*
+          * Peter Mirithu 
+          * Josphat Njoroge
+          * Jeff Thuo
 
 #### Authors' information
 *Peter Mirithu*
     Email: pyra_m.k@yahoo.com
     Address: 1394
     Software Developer.
-    Telephone N.O: 0790476167
+    Telephone N.O: 0790476167 <br>
 *Josphat Njoroge*
     Email: josphatnjoro@gmail.com
     Address: 6373
     Software Developer.
-    Telephone N.O: 0739106493
+    Telephone N.O: 0739106493 <br>
 *Jeff Thuo*
     Email: jeffthuo@gmail.com
     Address: 1073
     Software Developer.
-    Telephone N.O: 0720456610
+    Telephone N.O: 0720456610<br>
 
 ## Description
  This is a website that helps qualified individuals find market for their skills by offering them a plat from to post their gigs and get clients who are interested in them an enabling live chat between them.
