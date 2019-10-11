@@ -1,5 +1,6 @@
 //Business logic 
-function Person(fname, lname,uname, email,password, pass2,){
+var users =[];
+function Person(fname, lname,uname, email,password, pass2,){ //single user constructor 
   this.fname = fname;
   this.lname= lname;
   this.uname = uname;
@@ -26,7 +27,11 @@ $(document).ready(function() {
     var password = $("input#password").val();
     var pass2 = $("input#pswRepeat").val();
 
-    //alert(fname);
+    var user = new Person(fname, lname, uname, email, password, pass2);
+    users.push(user);
+
+    alert("Account successfully created!");
+    
   });
   
   
