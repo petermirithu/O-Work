@@ -143,7 +143,10 @@ font-family: 'Knewave', cursive;
 a{
   color: black;
 }
-
+.footer{
+  text-align: center;
+  cursor: pointer;  
+}
 /* sign-up Form styling */
 .sign_in_form{
   position: relative;
