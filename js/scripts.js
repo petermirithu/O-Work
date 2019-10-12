@@ -39,6 +39,5 @@ $(document).ready(function() {
 
   //Retrieve credentials for signin
   
-  
-  
+ 
 });//end of document.get.ready function
